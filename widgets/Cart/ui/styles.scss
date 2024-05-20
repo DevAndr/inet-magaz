@@ -1,0 +1,23 @@
+.cart {
+  .items {
+
+  }
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .amount {
+      font-size: 1.5rem;
+
+      .label {
+
+      }
+
+      .value {
+        color: #006FEE;
+      }
+    }
+  }
+}

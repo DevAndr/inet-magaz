@@ -1,0 +1,12 @@
+.radio-group-chips {
+  display: flex;
+  gap: 1rem;
+
+  .chip {
+    cursor: pointer;
+  }
+
+  .chip.active {
+
+  }
+}

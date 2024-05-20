@@ -1,0 +1,49 @@
+.product-card {
+  height: 100%;
+  width: 100%;
+
+  .head {
+    padding: 0;
+
+    .img {
+      object-fit: cover;
+      width: 100%;
+      height: 360px;
+    }
+  }
+
+  .body {
+
+  }
+
+  .footer {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+    .wrap-price {
+      gap: 1rem;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: end;
+    }
+
+    .details {
+      display: none;
+      position: relative;
+    }
+
+    .size {
+
+    }
+  }
+
+  &:hover {
+    .footer {
+      .details {
+        display: block;
+      }
+    }
+  }
+}
